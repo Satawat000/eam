@@ -13,7 +13,7 @@ export default function RolesPage() {
   const [selKey, setSelKey] = useState('admin');
   const [edit, setEdit] = useState<{ key: string; name: string; desc: string; grants: Record<string, Level> } | null>(null);
 
-  const permCount = (k: string) => Object.values(grants[k] || {}).reduce((a, b) => a + b, 0);
+  const permCount = (k: string) => Object.values(grants[k] || {}).reduce<number>((a, b) => a + b, 0);
   const roleUsers = (name: string) => users.filter((u) => u.role === name).length;
   const sel = roles.find((r) => r.key === selKey)!;
   const g = grants[selKey] || {};
