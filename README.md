@@ -5,7 +5,7 @@ Next.js 14 (App Router) port of the Access Management design for Vantage Financi
 ## Run
 
 ```bash
-cd nextjs
+cd eam
 npm install
 npm run dev
 ```
