@@ -10,7 +10,9 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000
+Open [<img width="1057" height="647" alt="image" src="https://github.com/user-attachments/assets/c69ac641-d149-4e24-99df-0e574ba89ce8" />](https://eam-omega.vercel.app/)
+
+
 
 ## Structure
 
